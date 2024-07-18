@@ -1,0 +1,65 @@
+* {
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.row {
+	/* 
+    đại diện cho 1 flex box mà cho phép các phần từ trong nó xuống dòng
+  */
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.col-1 {
+	/* Dùng hệ lưới trục 12 cột nên lấy flex-parent / 12 */
+	width: calc(1 * 100% / 12);
+	box-sizing: border-box;
+	padding: 12px;
+}
+
+.col-2 {
+	/* Dùng hệ lưới trục 12 cột nên lấy flex-parent / 12 */
+	width: calc(2 * 100% / 12);
+	box-sizing: border-box;
+	padding: 12px;
+}
+
+.col-3 {
+	/* Dùng hệ lưới trục 12 cột nên lấy flex-parent / 12 */
+	width: calc(3 * 100% / 12);
+	box-sizing: border-box;
+	padding: 12px;
+	/* border: 1px solid blue !important; */
+}
+
+.col-4 {
+	/* Dùng hệ lưới trục 12 cột nên lấy flex-parent / 12 */
+	width: calc(4 * 100% / 12);
+	box-sizing: border-box;
+	padding: 12px;
+}
+
+.col-5 {
+	/* Dùng hệ lưới trục 12 cột nên lấy flex-parent / 12 */
+	width: calc(5 * 100% / 12);
+	box-sizing: border-box;
+	padding: 12px;
+}
+
+.col-6 {
+	/* Dùng hệ lưới trục 12 cột nên lấy flex-parent / 12 */
+	width: calc(6 * 100% / 12);
+	box-sizing: border-box;
+	padding: 12px;
+}
+
+.col-12 {
+	/* Dùng hệ lưới trục 12 cột nên lấy flex-parent / 12 */
+	width: calc(12 * 100% / 12);
+	box-sizing: border-box;
+	padding: 12px;
+}

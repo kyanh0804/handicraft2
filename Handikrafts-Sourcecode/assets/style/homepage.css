@@ -1,0 +1,148 @@
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.card {
+    margin: 0 0.5em;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    width: 220px;
+    height: 350px;
+
+}
+
+.carousel-inner {
+    padding: 1em;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #e1e1e1;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media (min-width: 768px) {
+    .card img {
+        height: 11em;
+    }
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover .add-card-btn {
+    display: block;
+    visibility: visible;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.add-card-btn:hover {
+    background-color: rgb(255, 136, 0);
+    border: 1px solid rgb(255, 136, 0);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card-price {
+    color: #0e657e;
+
+}
+
+.add-card-btn {
+    background-color: #0e657e;
+    display: none;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.card-hover:hover .card-content {
+    display: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+
+}
+
+.card-price {
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.image-ctg {
+    cursor: pointer;
+    object-fit: cover;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+
+}
+
+.container-fix {
+    width: 1320px;
+    margin: auto;
+    background-color: #0e657e;
+    border-radius: 8px;
+    border: 2px solid #fff;
+}
+
+.clock {
+    margin: 20px 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+
+#countdown {
+    font-size: 36px;
+    margin: auto;
+}
+
+.deals {
+    border-radius: 10px;
+    text-align: center;
+    height: 380px;
+}
+
+.home-page {
+    padding-top: 141px;
+    background-image: url(/assets/images/background.png);
+    padding-bottom: 20PX;
+}
+
+.section-2 {
+    padding-top: 40px;
+}
+
+.add-card {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.card-title {
+    line-height: 1.2;
+    max-height: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    font-size: 18px;
+}

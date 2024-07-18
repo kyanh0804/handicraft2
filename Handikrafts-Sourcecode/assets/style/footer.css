@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-footer {
+    max-width: 1700px;
+    margin: auto;
+    border-radius: 3%;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+footer {
+    background-color: rgb(12, 106, 122);
+    padding: 50px 0;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h2 {
+    font-size: 25px;
+    color: rgb(245, 214, 173);
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    background-color: rgb(170, 87, 54);
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col div.edit4 {
+    margin-top: 25px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    padding-left: 10px;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    color: rgb(252, 250, 250);
+    display: block;
+    transition: all 0.3s ease;
+
+}
+
+.footer-col ul li a:hover {
+    color: rgb(252, 250, 250);
+    padding-left: 20px;
+}
+
+.footer-col .edit4 a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(12, 106, 122);
+    margin: 0 12px 13px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: aliceblue;
+    transition: all 0.5s ease;
+}
+
+.footer-col .edit4 a:hover {
+    color: white;
+    background-color: rgb(41, 182, 158);
+}
+
+form {
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+
+form i.fa {
+    font-size: 18px;
+    margin-right: 10px;
+    color: oldlace;
+}
+
+form input {
+    width: 100%;
+    background: transparent;
+    color: #ca0f0f;
+    border: 0;
+    outline: none;
+}
+
+form button {
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+form button .fa {
+    font-size: 25px;
+    color: #ccc;
+}
+
+.footer-col div.content {
+    color: white;
+}
+
+.footer-col p {
+    color: white;
+}

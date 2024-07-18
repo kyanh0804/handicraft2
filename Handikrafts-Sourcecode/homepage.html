@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- CDN CSS -->
+  <!-- BS5 -->
+  <!-- END CDN -->
+    <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+  crossorigin="anonymous">
+  <!-- REUSE CSS -->
+  <link rel="stylesheet" href="./assets/style/style.css">
+  <link rel="stylesheet" href="./assets/style/footer.css">
+  <link rel="stylesheet" href="./assets/style/header.css">
+  <!-- END REUSE -->
+  <link rel="stylesheet" href="./assets/style/homepage.css">
+  <!-- CUSTOM CSS -->
+  
+  
+  
+  <!-- END CUSTOM -->
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="menu">
+        <div class="logo">
+          <a href="#"><img src="./assets/images/Screenshot_7.png" alt="" width="250px" height="70px"></a>
+        </div>
+        <ul >
+          <li><a data-active="homepage.html" href="homepage.html">Homepage</a></li>
+          <li><a data-active="Handicrafts.html" href="Handicrafts.html">Handicrafts</a></li>
+          <li><a data-active="aboutus.html" href="aboutus.html">About us</a></li>
+          <li><a data-active="gallery.html" href="gallery.html">Gallery</a></li>
+          <li><a data-active="contact.html" href="contact.html">Contact us</a></li>
+          <li><a data-active="faqs.html" href="faqs.html">FAQs</a></li>
+          
+        </ul>
+        
+        
+      </div>
+   
+    </nav>
+  </header>
+  <!-- HEADER -->
+  <div class="home-page">
+    <div class="section-1" >
+      <div class="container-fluid " style="padding:0;">
+        <div id="carouselExampleIndicators" class="carousel slide"
+          data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0" class="active" aria-current="true"
+              aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner" style="padding:0;">
+            <div class="carousel-item active " >
+              <img
+                src="./assets/images/slider_1.png"
+                class="d-block w-100" style="height: 750px;" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://bizweb.dktcdn.net/100/415/393/themes/805827/assets/slider_2.jpg?1640151112834"
+                class="d-block w-100" style="height: 750px;" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/images/slider_3.jpg"
+                class="d-block w-100" style="height: 750px;" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev"
+            style="background-color: #0e657e;Height:26px;width:26px"
+            type="button"
+            data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="fa-solid fa-arrow-left" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next"
+            style="background-color: #0e657e;Height:26px;width:26px"
+            type="button"
+            data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="fa-solid fa-arrow-right" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="section-2" >
+      <div class="container">
+        <div> <h2>Populer Products</h2></div>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner" id="listProductWrapper-s2">
+            
+           
+          </div>
+          <button class="carousel-control-prev"
+            style="background-color: #0e657e;Height:26px;width:26px"
+            type="button"
+            data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="fa-solid fa-arrow-left" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next"
+            style="background-color: #0e657e ; Height:26px;width:26px"
+            type="button"
+            data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="fa-solid fa-arrow-right" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+    </div>
+    <div class="section-3">
+      <div class="container">
+        <div><h2>Category products</h2></div>
+        <div class="d-flex">
+          <div class="col-6">
+            <div class="bg-image position-relative "
+              style="max-width: 39rem;">
+              <img src="https://img.fruugo.com/product/0/01/701197010_max.jpg"
+                class="w-100 image-ctg" />
+              <div class="position-absolute top-0 start-0 text-light  ">
+                <p class="p-2 m-0 text">
+                  <a class="text-decoration-none fs-3 fw-bold"
+                    style="color:  #0e657e;  background-clip: text;" href="http://127.0.0.1:5501/Handicrafts.html?">
+                    Iron Handicrafts
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class=" d-flex col-6 flex-wrap">
+            <div class="col-6">
+              <div class="bg-image position-relative"
+                style="max-width: 18rem;  ">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzTQyCy7xyEPB_L6WRiPJmxXzq3yMNHOodkg&usqp=CAU"
+                  class="w-100 image-ctg" />
+                <div class="position-absolute top-0 start-0 text-light  ">
+                  <p class="p-2 m-0 text">
+                    <a class="text-decoration-none  fw-bold"
+                      style="color:  #0e657e;font-size: 22px; background-clip: text; " href="http://127.0.0.1:5501/Handicrafts.html?">
+                      Glass Handicrafts
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="bg-image position-relative"
+                style="max-width: 36rem; ">
+                <img
+                  src="data:image/jpeg;base64,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"
+                  class="w-100 image-ctg" />
+                <div class="position-absolute top-0 start-0 text-light  ">
+                  <p class="p-2 m-0 text">
+                    <a class="text-decoration-none  fw-bold"
+                      style="color:  #0e657e;font-size: 22px ; background-clip: text; " href="http://127.0.0.1:5501/Handicrafts.html?">
+                      Brass Handicrafts
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="bg-image position-relative"
+                style="max-width: 18rem;">
+                <img
+                  src="https://bizweb.dktcdn.net/thumb/large/100/415/393/products/dsf9721.jpg?v=1621497474277"
+                  class="w-100 image-ctg" />
+                <div class="position-absolute top-0 start-0 text-light  ">
+                  <p class="p-2 m-0 text">
+                    <a class="text-decoration-none fw-bold"
+                      style="color:  #0e657e;font-size: 22px ;background-clip: text;" href="http://127.0.0.1:5501/Handicrafts.html?">
+                      Wood Handicrafts
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div> <div class="col-6">
+              <div class="bg-image position-relative"
+                style="max-width: 18rem;">
+                <img
+                  src="https://nhomkimanh.com/upload/images/x%C6%B0%E1%BB%9Fng%20s%E1%BB%89%20xoong%20n%E1%BB%93i%20ch%E1%BA%A3o%203.jpg"
+                  class="w-100 image-ctg" style="height: 288px;" />
+                <div class="position-absolute top-0 start-0 text-light  ">
+                  <p class="p-2 m-0 text">
+                    <a class="text-decoration-none fw-bold"
+                      style="color:  #0e657e; font-size: 22px; background-clip: text; " href="http://127.0.0.1:5501/Handicrafts.html?">
+                      Aluminium Handicrafts
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-4">
+      <div class="container">
+        <div> <h2>Latest Products</h2></div>
+        <div id="carouselExampleControls-lates" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner" id="listProductWrapper-s4">
+                  
+          
+            <div class="carousel-item active">
+              <div class="cards-wrapper">
+                <div class="card d-none d-md-block card-hover"
+                  onClick="parent.location='homepage.html'">
+                  <img
+                    src="https://bizweb.dktcdn.net/thumb/large/100/415/393/products/dsf2646.jpg?v=1622536413880"
+                    class="card-img-top" alt="...">
+                  <div class="card-body text-center mt-4">
+                    <h5 class="card-title card-content">Đèn</h5>
+                    <p class="card-price card-content">100 $</p>
+                    <a href="#" class="add-card-btn btn btn-primary">
+                      <i class="fa-solid fa-bag-shopping m-lg-1"></i>
+                      Add to card
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div> 
+            
+          </div>
+          <button class="carousel-control-prev"
+            style="background-color: #0e657e;Height:26px;width:26px"
+            type="button"
+            data-bs-target="#carouselExampleControls-lates" data-bs-slide="prev">
+            <span class="fa-solid fa-arrow-left" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next"
+            style="background-color: #0e657e ; Height:26px;width:26px"
+            type="button"
+            data-bs-target="#carouselExampleControls-lates" data-bs-slide="next">
+            <span class="fa-solid fa-arrow-right" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="section-5">
+      <div class class="container-fluid ">
+        <div class="container-fix d-flex flex-wrap">
+          <div class="col-3 m-0">
+            <div class="deals mt-5">
+              <h1 style="font-size: 60px; color: rgb(255, 136, 0)" >
+                Deals of the Days
+              </h1>
+              <div class="clock">
+                <div class="countdown-container">
+                  <div id="countdown"></div>
+                </div>
+                <script src="/assets/js/clock.js"></script>
+              </div>
+            </div>
+          </div>
+          <div class="col-9">
+            <div id="carouselExampleControls-deals" class="carousel slide"
+              data-ride="carousel">
+              <div class="carousel-inner" id="listProductWrapper-s5">
+                <div class="carousel-item active ">
+                  <div class="cards-wrapper">
+                    <div class="card d-none d-md-block card-hover mt-3"
+                      onClick="parent.location='homepage.html'">
+                      <img
+                        src="https://bizweb.dktcdn.net/thumb/large/100/415/393/products/dsf2646.jpg?v=1622536413880"
+                        class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                        <h5 class="card-title m-0">Đèn</h5>
+                        <p
+                          class="m-0 ">
+                          <span
+                            class="text-decoration-line-through text-muted">100$</span>
+                          <span
+                            style="color:  rgb(255, 136, 0); margin:0 8px;">
+                            -20%</span>
+                        </p>
+                        <p class="m-0 card-price ">80$</p>
+                        <a href="#" class="add-card-btn btn btn-primary m-0"
+                          style="display: block;">
+                          <i class="fa-solid fa-bag-shopping m-lg-1"></i>
+                          Add to card
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+              
+              </div>
+              <button class="carousel-control-prev"
+                style="background-color:  rgb(255, 136, 0);Height:26px;width:26px"
+                type="button"
+                data-bs-target="#carouselExampleControls-deals" data-bs-slide="prev">
+                <span class="fa-solid fa-arrow-left" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next"
+                style="background-color:  rgb(255, 136, 0); Height:26px;width:26px"
+                type="button"
+                data-bs-target="#carouselExampleControls-deals" data-bs-slide="next">
+                <span class="fa-solid fa-arrow-right" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  </div>
+  <!-- FOOTER -->
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+  crossorigin="anonymous"></script>
+   <!-- FOOTER -->
+  <footer>
+    <div class="container-footer">
+      <div class="row">
+        <div class="footer-col">
+          <h2>Review</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolor esse accusamus? Voluptatum libero ipsum in laborum quos. Voluptatem laudantium aliquid distinctio quaerat veniam ullam est aperiam? Tempore, neque aspernatur.</p></li>
+            <div class="content">
+              <div class="place">
+                <span class="fa fa-map-marker"></span>
+                <span class="text">Ha Noi Aptech, HaNoi, VietNam</span>
+              </div>
+              <div class="phone">
+                <span class="fa fa-phone"></span>
+                <span class="text">+123-4567890</span>
+              </div>
+            </div>
+        </div>
+        <div class="footer-col">
+          <h2>Useful link</h2>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Company News</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Our Service</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h2>Services</h2>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Company News</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Our Service</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+            <h2>Email newslatter</h2>
+            <form>
+              <i class="fa fa-envelope"></i>
+              <input type="email" placeholder="Enter your email id" required>
+              <button type="submit"><i class="fa fa-arrow-right"></i></button>
+            </form>
+          <div class="edit4">
+            <h2>Social Media</h2>
+            <a href="#"><span class="fa-brands fa-facebook"></span></a>
+            <a href="#"><span class="fa-brands fa-twitter"></span></a>
+            <a href="#"><span class="fa-brands fa-instagram"></span></a>
+            <a href="#"><span class="fa-brands fa-telegram"></span></a>
+          </div>
+          
+        </div>
+      </div>
+    </div>  
+  </footer>
+  <!-- contact -->
+  
+  <!-- contact -->
+
+</body>
+<script src="./assets/js/main.js"></script>
+<script src="/assets/js/dummyData.js"></script>
+<script src="/assets/js/homepage.js"></script>
+</html>

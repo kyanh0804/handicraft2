@@ -1,0 +1,128 @@
+.sidebar {
+  background-color: #f8f9fa;
+  padding: 15px;
+}
+
+body {
+  background: white;
+}
+
+#fillter {
+  padding-top: 20px;
+}
+
+.container {
+  height: auto;
+  padding-top: 120px;
+
+}
+
+.container .col-md-3 .sidebar {
+  background-color: white;
+  border-radius: 12px;
+  border-bottom: 1px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  /* position: fixed; */
+}
+
+.sidebar {
+  padding: 20px;
+  background-color: #f8f9fa;
+
+}
+
+.side {
+  padding-top: 50px;
+}
+
+.sidebar .form-check {
+  margin-bottom: 15px;
+}
+
+.container .form-check {
+  margin-bottom: 30px;
+}
+
+#productlist {
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+
+.product-list {
+  padding-top: 20px;
+}
+
+.product-list .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  margin-bottom: 20px;
+}
+
+.product-list .card h6 {
+  text-align: center;
+}
+
+.product-list h4 {
+  margin-top: 20px;
+}
+
+
+.product-list .card-text {
+  text-align: center;
+}
+
+.product-list .card-img-top {
+  width: 100%;
+  max-height: 100%;
+  border-radius: 5%;
+  transition: 0.3s ease;
+}
+
+.product-list .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card-body {
+  width: 190px;
+  height: 150px;
+}
+
+.product-list .btn-primary {
+  background-color: #0e657e;
+  transition: background-color 0.3s ease-in-out;
+
+}
+
+.btn-primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.product-list .btn-primary:hover {
+  background-color: rgb(235, 155, 6);
+}
+
+input[type="checkbox"]:hover {
+  cursor: pointer;
+}
+
+.card-title {
+  line-height: 1.2;
+  max-height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  font-size: 16px;
+}
+
+.card-text {
+  color: #0e657e;
+  font-weight: bold;
+  font-size: 25px;
+}

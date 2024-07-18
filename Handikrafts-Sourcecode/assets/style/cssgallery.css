@@ -1,0 +1,27 @@
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    padding: 30px 50px;
+    padding-top: 130px;
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.as-gallery {
+    padding: 40px;
+}
+
+.as-gallery .row>div {
+    padding: 2px;
+}
+
+.as-gallery .lightbox img {
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+}
